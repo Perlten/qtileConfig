@@ -1,0 +1,8 @@
+- Seperate logic into multiple files
+- Move mouse to center of active screen on workspace switch
+- Detect if running on a laptop or desktop
+- Rewrite mouse interaction to use pynput
+
+
+Completed:
+- Automatically order the windows when not on max layout [x]
