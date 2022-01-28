@@ -362,8 +362,10 @@ keys = [
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key(["mod1"], "Tab", lazy.function(PrevFocus())),
     Key([mod], "Tab", lazy.function(PrevGroup())),
-    # Reservers menu bottom... its stupid
+
+    # Reservers F24 bottom for keymouse... its stupid
     Key([], "F24", lazy.function(lambda _: None)),
+    Key([], "F23", lazy.function(lambda _: None)),
 ]
 
 labels = [
