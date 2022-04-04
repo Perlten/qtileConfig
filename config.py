@@ -330,7 +330,7 @@ keys = [
     ),
     Key([mod], "c", lazy.spawn("roficlip")),
     Key([mod, "control"], "m", lazy.spawn("pavucontrol")),
-    Key([mod], "Escape", lazy.spawn("systemctl hibernate")),
+    Key([mod], "Escape", lazy.spawn("ssHibernate")),
     Key([mod], "l", lazy.spawn("betterlockscreen -l")),
     Key([mod], "b", lazy.function(switch_group_screen)),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("amixer sset Master 5%+")),
